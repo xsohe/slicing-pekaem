@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slicing Web - Jobless</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <!-- My css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layer-white">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="#">Jobless</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fw-semibold" id="offcanvasNavbarLabel">Jobless</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-5" href="#">Discover</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-5" href="#">Post a job</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-dark fw-semibold">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section class="hero d-flex justify-content-center align-items-center mx-auto text-center">
+        <main class="col-md-6">
+          <h1 class="fw-semibold">Get Connected to the Best Remote Jobs in Your Field</h1>
+          <p class="fw-normal w-75 mx-auto">Discover a wide range of remote opportunities on our platform and take control of your career</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-primary fw-semibold me-3">Explore Remote Jobs</button>
+            <a href="#" class="fw-semibold">How it works?</a>
+          </div>
+        </main>
+      </section>
+
+      <!-- Featured -->
+      <div class="container feature">
+        <div class="row">
+          <div class="col-lg-4 pb-3">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="img/figma-logo.png" alt="figma" class="img-fluid card-logo" />
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-semibold">Front-End Developer</h5>
+                    <h6 class="card-subtitle mb-2 fw-normal">Figma</h6>
+                  </div>
+                </div>
+                <p class="card-text pb-3">We are looking for an experienced front-end developer to join our team.</p>
+                <hr />
+                <div class="d-flex justify-content-between pt-3">
+                  <p class="badge fw-semibold">React</p>
+                  <p class="fw-semibold">$70.000 - $90.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-3">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="img/facebook-logo.png" alt="figma" class="img-fluid card-logo" />
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-semibold">Data Analis</h5>
+                    <h6 class="card-subtitle mb-2 fw-normal">Facebook</h6>
+                  </div>
+                </div>
+                <p class="card-text pb-3">We are seeking a data scientist to join our team.</p>
+                <hr />
+                <div class="d-flex justify-content-between pt-3">
+                  <p class="badge fw-semibold">Python</p>
+                  <p class="fw-semibold">$100,000 - $130,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="img/vercel-logo.png" alt="figma" class="img-fluid card-logo" />
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-semibold">Technical Writer</h5>
+                    <h6 class="card-subtitle mb-2 fw-normal">Vercel</h6>
+                  </div>
+                </div>
+                <p class="card-text pb-3">We are seeking a technical writer to join our team.</p>
+                <hr />
+                <div class="d-flex justify-content-between pt-3">
+                  <p class="badge fw-semibold">Documentation</p>
+                  <p class="fw-semibold">$60,000 - $80,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
